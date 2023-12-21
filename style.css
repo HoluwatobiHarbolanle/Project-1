@@ -1,0 +1,73 @@
+html,
+body{
+margin: 0;
+padding: 0;
+}
+body{
+    width: 100vw;
+    height:100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#f4ebe4;
+  }
+  * {
+    box-sizing: border-box;
+  }
+main{
+    display: flex;
+     width: 50rem;
+     height: 50rem;
+     margin: auto;
+}
+.section-one{
+width: 20rem;
+height: 30rem;
+}
+.section-one img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+
+}
+.section-two{
+  width: 20rem;
+  height: 30rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0 5px 5px 0;
+}
+p{
+ color: #adacb1; 
+}
+.pricing {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.first-pricing{
+  color: hsl(158, 36%, 37%);
+  font-size: 1.8rem;
+  font-weight: bolder;
+
+}
+
+.button-wrapper{
+  display: flex;
+  background-color:hsl(158, 36%, 37%) ;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-wrapper img{
+  width: 1rem;
+  height: 2rem;
+}
+
+button{
+  border: none;
+ background-color: transparent;
+ color: white;
+ cursor: pointer;
+}
